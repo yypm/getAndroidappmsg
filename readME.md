@@ -23,13 +23,13 @@
 - 流量脚本增加了接受流量的统计
 - 获取 CPU 温度时获取所有的 thermmal_zone* 的温度，待用
 
-### 使用方法
+### 功能简介
 |脚本名称|备注|
 |-------|---|
 |summery|递归式地将当前目录下所有子目录中的 log 文件转换为格式化 csv 文件|
 |run|同时运行以下所有监控脚本|
-|getAndroidCpu|需要输入3个参数|
-|getAndroidMemery|需要输入3个参数|
-|getAndroidNetwork|需要输入3个参数|
-|getAndroidbatteryTemperature|输入2个参数：时间间隔、日志位置|
-|getAndroidCpuTemperature|输入2个参数：时间间隔、日志位置|
+|getAndroidCpu|获取 CPU 占用率|
+|getAndroidMemery|获取内存占用率|
+|getAndroidNetwork|获取指定进程的网络流量|
+|getAndroidbatteryTemperature|获取电池温度|
+|getAndroidCpuTemperature|获取 CPU 温度|
